@@ -1,1 +1,21 @@
 @import url(style.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+header a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    padding: 0.5em;
+}
+.headerDer{
+    display: flex;
+    align-items: center;
+}
