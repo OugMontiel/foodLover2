@@ -37,19 +37,34 @@ main{
     opacity: 0.5;
 }
 .ptex{
+    height: 100vh;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../storage/img/placeYourImageHere0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+.ptex_childer h1{
+    color: var(--color-primary);
+}
+.ptex_childer p{
+    color: var(--color-font);
+}
+.boton{
+    background-color: var(--color-primary);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    gap: 10%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../storage/img/placeYourImageHere0.png);
 
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 120px;
+    height: 30px;
+    border-radius: 2px;
 }
-.ptex_childer{
-    align-self: flex-end;
+.boton p{
+    color: var(--color-secundary);
 }
 /* .imagenes{} 
 .imagenes img{
