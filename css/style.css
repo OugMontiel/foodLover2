@@ -157,6 +157,7 @@ header ul{
     bottom: 0;
 } */
 .fortex{
+    height: 150vh;
     background-color: var(--color-secundary);
     display: flex;
     flex-direction: column;
@@ -178,4 +179,45 @@ header ul{
 
     padding-top: 2rem;
 }
+.fivetex{
+    height: 100vh;
+    background-image:url(../storage/img/placeYourImageHereOur0.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.fivetex div{
+    width: 50%;
+    height: 50%;
+    background-color: var(--color-bannerFondo);
+    border: 10px solid var(--color-primary);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.fivetex h1{
+    color: var(--color-font);
+    font-size: 50px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+.fivetex p{
+    width: 80%;
+    
+    text-align: center;
 
+    color: var(--color-font);
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+  
