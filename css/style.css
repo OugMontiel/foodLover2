@@ -156,5 +156,26 @@ header ul{
     position: absolute;
     bottom: 0;
 } */
+.fortex{
+    background-color: var(--color-secundary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fortex h1{
+    color: var(--color-font);
+    font-size: 50px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.fortex_img{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 
+    padding-top: 2rem;
+}
 
