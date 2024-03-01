@@ -6,13 +6,13 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 header{
     /* background-color: aqua; */
 
     display: flex;
     justify-content: space-around;
-    margin-top: 5vh;
+    /* margin-top: 5vh; */
+    padding-block: 2rem;
 }
 header a{
     text-decoration: none;
@@ -24,47 +24,48 @@ header a{
     font-weight: 500;
     font-style: normal;
 }
-header li{
+header ul{
     list-style: none;
 }
 .headerDer{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
 }
-.headerDer ul{
-    display: flex;
-    gap: 15vh;
+
+
+.d{
+    height: 100vh;
 }
 
 main{
     width: 100%;
-
-    display: flex;
-    flex-direction: column;   
-    flex-wrap: nowrap;
 }
-.home,.vacio{
-    position: relative;
+section{
+    /* position: relative; */
 }
 .ptex{
     width: 100%;
     height: 100vh;
-    position: absolute;
-    top: -120px;
+    position: relative;
+    top: 0 ;
     z-index: -1;
     
     background-image: linear-gradient(var(--color-banner),var(--color-banner)), url(../storage/img/placeYourImageHere0.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    gap: 5%;
-    
-    padding-right: 100px;
-    padding-left: 30px;
 }
-.ptex_childer h1{
+.ptex article{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.ptex h1{
     color: var(--color-primary);
     font-size: 80px;
     font-family: "Roboto Slab", serif;
@@ -72,7 +73,7 @@ main{
     font-weight: 900;
     font-style: normal;
 }
-.ptex_childer p{
+.ptex p{
     color: var(--color-font);
     font-size: 20px;
     font-family: "Roboto Slab", serif;
@@ -86,9 +87,9 @@ main{
     justify-content: center;
     align-items: center;
     
-    width: 120px;
-    height: 30px;
-    border-radius: 2px;
+    width: 25%;
+    height: 3rem;
+    border-radius: 8px;
 }
 .boton p{
     color: var(--color-secundary);
