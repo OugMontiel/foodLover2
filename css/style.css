@@ -128,5 +128,28 @@ header ul{
     flex-basis: 40%;
     flex-direction: column;
 }
+/* .tertex{
+    height: 200vh;
+    background-color: var(--color-secundary);
+    position: relative;
+} */
+/* .tertex_imgs{
+    position: relative;
+} */
+/* .tertex_imgs_fondo{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+} */
+/* .tertex_imgs_0{
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
+/* .tertex_imgs_1{
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+} */
 
 
