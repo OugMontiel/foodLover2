@@ -220,4 +220,58 @@ header ul{
     font-weight: 500;
     font-style: normal;
 }
+.sixtex{
+    background-color: var(--color-secundary);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sixtex_one{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sixtex_one div{
+    width: 25%;
+    gap: 1rem;
+}
+.sixtex_one_one{
+    display: flex;
+    flex-direction: column;
+}
+.sixtex h1{
+    color: var(--color-font);
+    font-size: 50px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+.sixtex h2{
+    color: var(--color-primary);
+    font-size: 30px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.sixtex h3{
+    color: var(--color-primary);
+    font-size: 20px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.sixtex p{
+    color: var(--color-font);
+    font-size: 15px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
   
